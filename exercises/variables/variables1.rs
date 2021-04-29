@@ -6,9 +6,11 @@
 // even after you already figured it out. If you got everything working and
 // feel ready for the next exercise, remove the `I AM NOT DONE` comment below.
 
-// I AM NOT DONE
-
 fn main() {
-    x = 5;
+    println!("Hello world");
+    let some_string: &str = "manuel";
+    println!("My name is {0}, {1} {0}", "Bond", "James");
+    println!("Hello, {}", some_string);
+    let x = 5;
     println!("x has the value {}", x);
 }
